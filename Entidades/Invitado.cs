@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Invitacion.Entidades
 {
-    internal class Invitado
+    public class Invitado
     {
         public int Id { get; set; }
         public string NombreCompleto { get; set; } = string.Empty;
